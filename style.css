@@ -5,11 +5,12 @@
     box-sizing: border-box;
 }
 
-div, span{
+/* div, span{
     border: 1px solid blue;
-}
+} */
 
 body {
+    background-color: #a1a1a1;
     height: 100dvh;
     display: flex;
     align-items: center;
@@ -17,36 +18,49 @@ body {
 }
 
 .main-div {
+    border-radius: 20px;
     width: 380px;
     height: 60%;
     background-color: #1C1C1C;
 }
 
 .screen-area {
+    padding-top: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 25%;
+    height: 30%;
 }
 
 #screen {
+    border-radius: 20px;
     background-color: #505050;
     width: 85%;
     height: 70%;
 }
 
+#small-num-area {
+    height: 30%;
+}
+
+#big-num-area {
+    height: 70%;
+}
+
 .numbers-area {
-    height: 75%;
+    height: 70%;
 }
 
 #cd-area {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    height: 25%;
+    height: 20%;
+    padding-bottom: 16px;
 }
 
 .cd-btn {
+    border-radius: 12px;
     background-color: #D4D4D2;
     font-size: 24px;
     text-align: center;
@@ -54,11 +68,11 @@ body {
 }
 
 #numbers-grid {
-    padding: 0px 16px 16px;
+    padding: 0px 24px 24px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(5, 1fr);
-    gap: 16px;
+    gap: 12px;
     height: 75%;
 }
 
@@ -70,7 +84,8 @@ body {
     grid-column: span 4;
 }
 
-.num-btn, .operator-btn {
+#numbers-grid button {
+    border-radius: 20px;
     color: white;
     font-size: 20px;
 }
