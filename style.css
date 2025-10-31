@@ -39,11 +39,24 @@ body {
     height: 70%;
 }
 
+#small-num-area, #big-num-area {
+    font-family: 'Roboto Mono';
+    color: white;
+    font-weight: 300;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
 #small-num-area {
+    font-size: 18px;
+    padding: 8px 16px 0;
     height: 30%;
 }
 
 #big-num-area {
+    font-size: 56px;
+    padding: 0 8px;
     height: 70%;
 }
 
