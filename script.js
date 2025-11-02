@@ -8,7 +8,7 @@ const clearBtn = document.getElementById('clear');
 // CREATING THE BASIC FUNCTIONS
 function clear() {
     bigNumArea.innerText = 0;
-    smallNumArea.innerText = '';
+    smallNumArea.innerText = null;
 }
 
 // ASSINGNING THE FUNCTIONS
