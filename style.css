@@ -107,6 +107,6 @@ body {
     background-color: #505050;
 }
 
-.operator-btn {
+.operator-btn, #equal {
     background-color: #FF9500;
 }
