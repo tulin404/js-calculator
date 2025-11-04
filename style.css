@@ -49,12 +49,14 @@ body {
 }
 
 #small-num-area {
+    user-select: none;
     font-size: 18px;
     padding: 8px 16px 0;
     height: 30%;
 }
 
 #big-num-area {
+    user-select: none;
     font-size: 56px;
     padding: 0 8px;
     height: 70%;
@@ -109,4 +111,31 @@ body {
 
 .operator-btn, #equal {
     background-color: #FF9500;
+}
+
+.num-btn:hover {
+    cursor: pointer;
+    background-color: #50505080;
+}
+
+.operator-btn:hover, #equal:hover {
+    cursor: pointer;
+    background-color: #ff9500ab;
+}
+
+.cd-btn:hover {
+    cursor: pointer;
+    background-color: #D4D4D2ab;
+}
+
+.num-btn:active {
+    background-color: #5050505b;
+}
+
+.operator-btn:active, #equal:active {
+    background-color: #ff950091;
+}
+
+.cd-btn:active {
+    background-color: #d4d4d291;
 }
